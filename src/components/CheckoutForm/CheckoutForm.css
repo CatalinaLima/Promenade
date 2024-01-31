@@ -1,0 +1,51 @@
+.checkout-container{
+    background-color: #e6e6e6;
+    width: 520px;  
+    border-radius: 1rem;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .input{
+    width: 85%;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    display: block;
+    padding : 5px;
+    border-bottom: 1px solid rgb(71, 47, 47);
+    border-width: 5px;
+    background-color: #e6e6e6;
+  }
+
+
+  .buttonC{
+  background-color: rgb(71, 47, 47);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+  .titleC{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(34, 35, 34);
+    font-weight: bolder;
+  }
+
+  .Botones{
+    margin: 20px;
+    display: flex;
+  }

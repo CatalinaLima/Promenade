@@ -1,0 +1,26 @@
+.titleproyectos{
+    position: absolute;
+    /* background-color: rgb(253, 253, 253, 0.8); */
+    padding: 20px;
+    border-radius: 50px;
+    color: aliceblue;
+
+}
+
+.obras2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projects{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100vh;
+    justify-content: space-around;
+    
+}
