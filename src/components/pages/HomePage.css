@@ -4,6 +4,7 @@
 
 .fondo{
     width: 100%;
+    filter: grayscale(100%); 
 
 }
 
@@ -17,9 +18,9 @@
   .overlay-text {
     font-family: 'quicksand';
     position: absolute;
-    color: rgb(54, 54, 54); /* Ajusta según sea necesario */
-    font-size: 30px; /* Ajusta según sea necesario */
-    z-index: 1; /* Asegura que el texto esté sobre la imagen de fondo */
+    color: rgb(54, 54, 54); 
+    font-size: 30px; 
+    z-index: 1; 
     margin: 0px 500px;
     text-align: justify;
     background-color: rgba(241, 241, 241, 0.4);
@@ -34,8 +35,8 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-    height: 700px; /* Cambié 100vh a auto para que se ajuste al contenido */
-    justify-content: flex-start; /* Cambié flex-start a center para centrar los elementos */
+    height: 700px; 
+    justify-content: flex-start; 
   }
 
 .s1 {
@@ -96,7 +97,7 @@
     padding: 20px;
     border-radius: 50px;
     color: aliceblue;
-    z-index: 2; /* Set a higher z-index for the title */
+    z-index: 2; 
     font-family: 'Aboreto';
     font-weight: bolder;
     font-size: 150px;
@@ -110,7 +111,7 @@
   padding: 20px;
   border-radius: 50px;
   color: aliceblue;
-  z-index: 2; /* Set a higher z-index for the title */
+  z-index: 2; 
   font-family: 'Aboreto';
   font-weight: bolder;
   font-size: 40px;

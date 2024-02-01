@@ -36,11 +36,11 @@
 }
 .item-card_img img{
 width: 500px;
-filter: grayscale(100%); /* Configura la escala de grises inicial al 100% */
+filter: grayscale(100%); 
 }
 
 .item-card.colored .item-card_img img {
-  filter: grayscale(0%); /* Desactiva la escala de grises */
+  filter: grayscale(0%); 
 }
 
 .item-card:hover{

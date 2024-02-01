@@ -53,7 +53,7 @@
     padding: 20px;
     border-radius: 50px;
     color: aliceblue;
-    z-index: 2; /* Set a higher z-index for the title */
+    z-index: 2; 
     font-family: 'Quicksand';
     font-weight: bolder;
 

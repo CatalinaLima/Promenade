@@ -44,11 +44,11 @@
 }
 
 
-/* Nueva clase para la línea separativa */
+
 .linea-separativa {
   width: 90%;
-  border-bottom: 2px solid #ccc; /* Puedes ajustar el color y el estilo del borde según tu preferencia */
-  margin-top: 20px; /* Ajusta la distancia superior según tus necesidades */
+  border-bottom: 2px solid #ccc; 
+  margin-top: 20px; 
 
 }
 
@@ -69,7 +69,6 @@
 }
 
 
-/* TuFormulario.css */
 
 .formulario-container {
   max-width: 600px;
@@ -92,7 +91,7 @@
 .campo {
   margin-bottom: 15px;
   display: flex;
-  flex-direction: column; /* Cambio aquí para colocar label arriba del input */
+  flex-direction: column; 
 }
 
 label {
