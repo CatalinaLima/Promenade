@@ -31,7 +31,7 @@ function Homepage() {
       </div>
       <div className='content'>
         <p className='overlay-text'>Somos un estudio de arquitectura especializado en el desarrollo de proyecto, diseño y dirección de obra. A través del diseño, buscamos potenciar el paisaje y crear un diálogo con el entorno.</p>
-        <img className='fondo' src="/assets/fondo2.png" alt="fondo" />
+        <img className='fondo' src="/assets/wallpaper.jpg" alt="fondo" />
       </div>
       <section className="section1">
         <div className='s1'>

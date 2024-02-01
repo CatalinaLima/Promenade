@@ -1,14 +1,14 @@
-.item-card{
+.item-card {
   color: black;
   text-align: center;
   position: relative;
   margin: 10px 15px;
   padding-bottom: 25px;
-  overflow: hidden;  
+  overflow: hidden;
   transition: all 0.20s ease-in;
   cursor: pointer;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -35,8 +35,12 @@
 
 }
 .item-card_img img{
-width: 500px
+width: 500px;
+filter: grayscale(100%); /* Configura la escala de grises inicial al 100% */
+}
 
+.item-card.colored .item-card_img img {
+  filter: grayscale(0%); /* Desactiva la escala de grises */
 }
 
 .item-card:hover{
@@ -57,3 +61,5 @@ width: 500px
 small{
   color: #8c8c8e;
 }
+
+
