@@ -19,7 +19,7 @@ const Servicios = () => {
   return (
     <div className="obras">
       <div className='obras2'>
-        <h1 className='titleproyectos'>NUESTROS SERVICIOS</h1>
+        <h1 className='titleproyectos3'>NUESTROS SERVICIOS</h1>
         <img className="encabezado" src="/assets/4.jpg" alt="Proyecto" />
       </div>
       <div>

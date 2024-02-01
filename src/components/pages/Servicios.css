@@ -50,3 +50,36 @@
     font-size: 14px;
     margin: 0px 150px;
   }
+
+  .encabezado {
+    width: 100%;
+    animation: moveRightToLeft 100s linear forwards; /* Adjust the duration as needed */
+    transform-origin: 0% 50%; /* Set the transform origin to the left side of the image */
+  }
+  
+  @keyframes moveRightToLeft {
+    0% {
+      transform: translateX(0%) scale(1);
+    }
+    100% {
+      transform: translateX(calc(-50%)) scale(1.5); /* Adjust the scale as needed */
+    }
+  }
+  
+  .obras2 {
+    overflow: hidden;
+    position: relative;
+  }
+  
+
+
+  .titleproyectos3{
+    position: absolute;
+    /* background-color: rgb(253, 253, 253, 0.8); */
+    padding: 20px;
+    border-radius: 50px;
+    color: rgb(79, 79, 79);
+    z-index: 2; /* Set a higher z-index for the title */
+    font-family: 'Quicksand';
+    font-weight: bolder;
+}

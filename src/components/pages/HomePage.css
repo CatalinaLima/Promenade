@@ -89,3 +89,30 @@
   .idea{
     width: 500px;
   }
+
+  .titlepromenade{
+    position: absolute;
+    /* background-color: rgb(253, 253, 253, 0.8); */
+    padding: 20px;
+    border-radius: 50px;
+    color: aliceblue;
+    z-index: 2; /* Set a higher z-index for the title */
+    font-family: 'Aboreto';
+    font-weight: bolder;
+    font-size: 150px;
+
+}
+
+.titlepromenade2{
+  position: absolute;
+  margin-top: 200px;
+  /* background-color: rgb(253, 253, 253, 0.8); */
+  padding: 20px;
+  border-radius: 50px;
+  color: aliceblue;
+  z-index: 2; /* Set a higher z-index for the title */
+  font-family: 'Aboreto';
+  font-weight: bolder;
+  font-size: 40px;
+
+}

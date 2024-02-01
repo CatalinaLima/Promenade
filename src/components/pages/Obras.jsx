@@ -6,7 +6,7 @@ const Obras = () => {
   return (
     <div className="obras">
       <div className='obras2'>
-        <h1 className='titleproyectos'>PROYECTOS</h1>
+        <h1 className='titleproyectos2'>PROYECTOS</h1>
         <img className="encabezado" src="/assets/2.jpg" alt="Proyecto" />
       </div>
       <div className='projects'>

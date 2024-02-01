@@ -15,11 +15,19 @@ function Homepage() {
     slidesToScroll: 1,
   };
 
+  <div className='obras2'>
+  <h1 className='titleproyectos2'>PROYECTOS</h1>
+  <img className="encabezado" src="/assets/2.jpg" alt="Proyecto" />
+</div>
 
   return (
     <div>
       <div className='header'>
+      <div className='obras2'>
+      <h1 className='titlepromenade'>PROMENADE</h1>
+      <h2 className='titlepromenade2'>Arquitectura & Construccion</h2>
         <img className="encabezado" src="/assets/1.jpg" alt="Encabezado" />
+        </div>
       </div>
       <div className='content'>
         <p className='overlay-text'>Somos un estudio de arquitectura especializado en el desarrollo de proyecto, diseño y dirección de obra. A través del diseño, buscamos potenciar el paisaje y crear un diálogo con el entorno.</p>

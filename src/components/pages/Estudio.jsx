@@ -9,7 +9,7 @@ const Estudio = () => {
   return (
     <div className="obras">
       <div className='obras2'>
-        <h1 className='titleproyectos'>ESTUDIO</h1>
+        <h1 className='titleproyectos2'>ESTUDIO</h1>
         <img className="encabezado" src="/assets/5_.jpg" alt="Proyecto" />
       </div>
       <div>
