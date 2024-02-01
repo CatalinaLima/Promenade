@@ -1,81 +1,86 @@
-import { useEffect, useState, useRef } from 'react';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
-import './Contact.css';
+import "./Contact.css";
 
-const Contact = () => {
-  const mapRef = useRef(null);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
 
-  useEffect(() => {
-    if (!mapRef.current) {
-      // Coordenadas de La Barra, Maldonado, Uruguay
-      const mapCenter = [-34.91512305982762, -54.86040793579267];
-      
+const Contacto = () => {
 
-      // Configuración del mapa
-      const map = L.map('map').setView(mapCenter, 14);
 
-      // Capa de OpenStreetMap
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors',
-      }).addTo(map);
 
-      // Marcador en la ubicación
-      L.marker(mapCenter).addTo(map);
-
-      mapRef.current = map; // Actualizamos el ref para indicar que el mapa ya está inicializado
-    }
-  }, []);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Aquí puedes realizar acciones con los datos del formulario, como enviarlos a un servidor o mostrarlos en la consola.
-    console.log(formData);
-  };
 
   return (
-    <section className="contact-section">
-      <h2 className="title">CONTACTANOS!</h2>
-      
-      <div className='formulario'>
-      <p>Queres realizar un festejo, reservar una mesa, o simplemente comunicarte con nosotros?
-        Dejanos tu consulta y nos comunicaremos contigo!
-      </p>
-        <form className='form2'  onSubmit={handleSubmit}>
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
-
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} />
-
-          <label htmlFor="message">Message:</label>
-          <textarea id="message" name="message" value={formData.message} onChange={handleChange}></textarea>
-
-          <button type="submit">SEND</button>
-        </form>
-      </div>
-      <div id="map" className="contact-map"></div>
-      {/* <div className="contact-content">
-        <p>Ruta 10 y Los silencios, La Barra, Barra De Maldonado, Maldonado, Uruguay 20001</p>
+    <div className="obras3">
+      {/* <div className='obras2'>
+        <h1 className='titleproyectos'>ESTUDIO</h1>
+        <img className="encabezado" src="/assets/5_.jpg" alt="Proyecto" />
       </div> */}
-    </section>
-  );
+      <div>
+        <div className= 'tab-content'>
+            <div className="part1">
+              <h3 className="spc" >Nuevos proyectos</h3>
+              <p className="sp1">
+              Para obtener más información sobre nuestros servicios,
+              recibir asesoramiento de expertos o coordinar una reunión,
+              ponte en contacto con nosotros.</p>
+            <div>
+            <div className="formulario-container">
+              <form className="formulario">
+                <div className="campo">
+                  <label htmlFor="nombre">Nombre</label>
+                  <input type="text" id="nombre" name="nombre" required />
+                </div>
+
+                <div className="campo">
+                  <label htmlFor="email">Correo Electrónico</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div className="campo">
+                  <label htmlFor="telefono">Teléfono</label>
+                  <input type="tel" id="telefono" name="telefono" />
+                </div>
+
+                <div className="campo">
+                  <label htmlFor="asunto">Asunto</label>
+                  <input type="text" id="asunto" name="asunto" required />
+                </div>
+
+                <div className="campo">
+                  <label htmlFor="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+
+                <button type="submit" className="boton-enviar">
+                  ENVIAR MENSAJE
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div className="part2">
+          <div className="tx">
+          <h3 className="spc" >Promenade Arquitectura</h3>
+          <p className="sp1">
+          From Punta del Este & Montevideo, Uruguay to the world</p>
+          <small className="small2">5454154</small>
+          <small className="small2">45414545</small>
+          </div>
+          <div className="imgg">
+          <img className="imgcontact" src="/assets/99.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+      {/* Línea separativa */}
+    <div className="linea">
+      <div className="linea-separativa"></div>
+    </div>
+  <div>
+
+</div>
+</div>
+);
 };
 
-export default Contact;
+export default Contacto;
 
 
 

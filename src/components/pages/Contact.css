@@ -1,75 +1,142 @@
-.contact-section {
+
+.tab-content{
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 100px;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-family: 'Quicksand';
+
+
+
+
+}
+
+.sp1{
+  font-size: 14px;
+  margin: 0px 80px;
+  text-align: justify ;
+  font-weight:550;
+
+
+}
+
+
+
+
+.part1{
+  display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  width: 500px;
+}
+
+.part2{
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.contact-map {
-  height: 500px; /* Ajusta la altura según tus necesidades */
-  width: 100%; /* O ajusta el ancho según tus necesidades */
-  margin-top: 150px;
-}
-
-
-.contact-content{
-  font-size: 20px;
-  margin: 50px;
-  padding: 20px;
-  border-radius: 20px;
-}
-
-
-.title{
-  font-family: 'Aboreto';
-  color: rgb(71, 47, 47);
+.spc{
+  font-size: 18px;
+  margin: 0px 80px;
+  margin-bottom: 30px;
   font-weight: bolder;
-  font-size: 4em;
+}
+
+
+/* Nueva clase para la línea separativa */
+.linea-separativa {
+  width: 90%;
+  border-bottom: 2px solid #ccc; /* Puedes ajustar el color y el estilo del borde según tu preferencia */
+  margin-top: 20px; /* Ajusta la distancia superior según tus necesidades */
 
 }
 
-.formulario{
-  margin-top: 50px;
+.linea{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Aboreto';
-  color: rgb(71, 47, 47);
-  font-weight: bolder;
-  font-size: 1.2em;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.small2{
+
+  margin: 0px 80px;
+
+  color: black;
+  margin-top: 15px;
+
 
 }
 
-.form2 {
-  margin-top: 90px;
-  width: 100%;
+
+/* TuFormulario.css */
+
+.formulario-container {
   max-width: 600px;
+  margin: 50px 0px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.form2 label {
-  margin-bottom: 8px;
+.titulo-formulario {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-.form2 input,
-.form2 textarea {
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column; /* Cambio aquí para colocar label arriba del input */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 16px;
-  border: none;
-  border-bottom: 1px solid rgb(71, 47, 47);
-  outline: none; /* Esto elimina el contorno cuando el input está enfocado */
-  background-color:rgb(241, 241, 239);
-  border-width: 5px;
-}
-
-
-.form2 button {
-  background-color: rgb(71, 47, 47);
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  font-size: 1em;
-  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
   border-radius: 5px;
+  margin-top: 5px;
 }
+
+.boton-enviar {
+  background-color: #8c8c8c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.boton-enviar:hover {
+  background-color: #595959;
+}
+
+.imgcontact{
+  width: 400px;
+  margin: 20px 0px;
+  padding: 20px;
+
+
+}
+
+
+
+.tx{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
